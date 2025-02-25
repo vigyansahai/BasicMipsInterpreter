@@ -2,8 +2,8 @@
 *CS64 CCS Lab Project, takes in raw binary and runs MIPS instructions*
 
 ## How to run
-There are two .cpp files, main is the interpreter with all the debugging print statements to show what occurs inside the interpreter, mainNoComments does not have these debugging print statements.
-The file takes binary Big Endian input from the input.txt file. It immidiately starts reading code as intrustions, as such all data must be stored at the end of the file. Sample inputs have been provided in the inputPrep.txt file. 
+There are two .cpp files, main is the interpreter with all the debugging print statements to show what occurs inside the interpreter, mainNoComments does not have these debugging print statements.\
+The file takes binary Big Endian input from the input.txt file. It immidiately starts reading code as intrustions, as such all data must be stored at the end of the file. Sample inputs have been provided in the inputPrep.txt file. \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Writing this code in raw binary is extremely annoying, I recomend using this [website](https://mips-converter.jeffsieu.com/), it does not have all the commands but will help a lot if you plan to write your own binary input:*
 
 ## Instructions Implemented
