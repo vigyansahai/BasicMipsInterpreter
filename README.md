@@ -51,7 +51,7 @@ The file takes binary Big Endian input from the input.txt file. It immidiately s
 - **jal**
 
 ### Syscalls (OPCODE 0, FUNCT 0xC):
-- **Print int: ** input 1 into $v0, it prints what is in $a0
+- **Print int:** input 1 into $v0, it prints what is in $a0
 - **Print string:** input 4 into $v0, it prints from the address inputed into $a0 until it hits a null terminator
 - **Take input int:** input 5 into $v0, it takes in input from std::cin and stores it in $v0
 - **Take input string:** input 8 into $v0, the buffer address to write in $a0, and the length of the string in $a including the null terminator, it takes in input from std::cin and stores it with a null terminator
