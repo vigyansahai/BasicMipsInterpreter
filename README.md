@@ -10,10 +10,10 @@ The file takes binary Big Endian input from the input.txt file. It immidiately s
 
 ### R Instructions (OPCODE 0, FUNCT: x):
 
-- **addu** prints overflow if there is overflow
-- **sub**
-- **add**
-- **subu** prints overflow if there is overflow
+- **addu** 
+- **sub** prints overflow if there is overflow
+- **add** prints overflow if there is overflow
+- **subu** 
 - **and**
 - **nor**
 - **xor**
